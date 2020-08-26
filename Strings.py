@@ -20,3 +20,9 @@ print(str3[:5])  # prints all characters form start to index 4
 print(str3[:])  # this syntax will just print all the characters in the string
 print(str3[1:-1])  # this will print all characters from index 1 to -2 {one before -1}
 # NOTE : in the above statement the order of characters will not be changed i.e straight as the string is written
+
+firstNAme = "firstName"
+lastName = "lastName"
+message = f"{firstNAme} {lastName}"
+# the above is an example of a formatted string, this has a prefix "f" and then you can use curly braces - {}
+# for entering the variable in the string w/o string concatenation.

@@ -1,5 +1,11 @@
 # ARITHMETIC OPERATIONS:
 
+# NOTE : OPERATOR PRECEDENCE
+# order of execution {parenthesis can change the order}
+# 1. exponent
+# 2. multiplication or division{both types} or modulus
+# 3. addition or subtraction
+
 print(10 + 3)  # addition = 13
 
 print(10 - 3)  # subtraction = 7

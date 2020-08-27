@@ -24,6 +24,11 @@ print(course.replace("for", "to"))
 # "replace" method is to replace the first parameter with the second parameter.
 print(course.replace("n", "j"))
 # if there are multiple instances of the parameter, then all instances will be replaced.
+
+# NOTE : MEMBERSHIP OPERATORS : "in" & "not in"
+# for example :
+# "'x' in y" and
+# "'x' not in y"
 print("Python" in course)  # "in" operator.
 # the above expression will return a boolean value, whether the parameter is in the targeted String.
 
